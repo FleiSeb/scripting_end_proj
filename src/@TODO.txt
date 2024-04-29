@@ -1,0 +1,6 @@
+@TODO
+clean code (sections / main / div etc / footer header)
+clean css
+responsiveness for last 4 pages!!
+fix data toggle hamburger menu / navbar
+make proj 2

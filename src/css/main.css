@@ -10,12 +10,16 @@ body {
     font-size: large;
 }
 
-.navbar{
-    height: 4.5rem!important;
-    font-size: larger;
+section {
+    margin-bottom: 1rem;
 }
 
-.bg-highlight{
+img{
+    border-radius: 10px;
+}
+
+
+.bg-highlight {
     background-color: #1A1A1A;
     border-radius: 10px;
 }
@@ -29,13 +33,18 @@ body {
     }
 }
 
-.news .btn-primary {
+nav ul{
+    border-radius: 10px;
+}
+
+.btn-primary {
     background-color: #C0094B;
     border-color: #C0094B;
     color: #FFFFFF;
+    min-width: 100%;
 }
 
-.news .btn-primary:hover {
+.btn-primary:hover {
     background-color: #FF0000;
     border-color: #FF0000;
 }
@@ -62,3 +71,33 @@ a {
 a:hover {
     color: #FF0000;
 }
+
+.info-card{
+    padding: 1rem;
+}
+
+.info-card h2 {
+    text-align: center;
+    color: #C0094B;
+}
+
+
+@media (min-width: 768px) {
+    .info-card h2{
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        height: 4.5rem;
+        font-size: large;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn-primary {
+        font-size: large;
+    }
+}
+

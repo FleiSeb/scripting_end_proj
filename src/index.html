@@ -9,17 +9,20 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
   <link rel="icon" href="favicon.png" type="image/png">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark px-5">
     <a class="navbar-brand" href="#">Autohaus Fleischanderl</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMenu"
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMenu"
       aria-controls="navbarNavAltMenu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMenu">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav bg-dark px-3">
         <li class="nav-item">
           <a class="nav-link active" href="index.html">Home</a>
         </li>
@@ -45,20 +48,23 @@
     </div>
   </header>
 
-  <section class="news pt-3 bg-highlight">
+  <main class="news pt-3 bg-highlight">
     <div class="container">
       <h2 class="text-center">Aktuelle Neuigkeiten</h2>
       <div class="row mt-4">
-        <article class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3">
           <img src="img/index/porsche_taycan.jpg" alt="News 1" class="img-fluid mb-2">
           <h4><a href="#">Porsche Fleischanderl turns electric</a></h4>
-          <p>Wir freuen uns, die Ankunft der Zukunft der Elektromobilität im Autohaus Fleischanderl bekannt geben zu dürfen.
-            Der Porsche Taycan beeindruckt durch eine enorme Reichweite, modernste Technologie und einem schlankem Design
+          <p>Wir freuen uns, die Ankunft der Zukunft der Elektromobilität im Autohaus Fleischanderl bekannt geben zu
+            dürfen.
+            Der Porsche Taycan beeindruckt durch eine enorme Reichweite, modernste Technologie und einem schlankem
+            Design
           </p>
-          <a href="https://www.porsche.com/germany/models/taycan/taycan-models/taycan/" class="btn btn-primary btn-sm">Mehr lesen</a>
-        </article>
+          <a href="https://www.porsche.com/germany/models/taycan/taycan-models/taycan/"
+            class="btn btn-primary btn-sm">Mehr lesen</a>
+        </div>
 
-        <article class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3">
           <img src="img/index/porsche_app.jpg" alt="News 3" class="img-fluid mb-2">
           <h4><a href="#">Gratis setup der Porsche App bei jedem Porsche neukauf</a></h4>
           <p>Die Porsche App ist ein unverzichtbares Tool für jeden Porsche Fahrer.
@@ -66,9 +72,9 @@
             bei uns kostenlos einrichten </p>
           <a href="https://www.porsche.com/usa/apps-and-entertainment/apps/" class="btn btn-primary btn-sm">Mehr
             lesen</a>
-        </article>
+        </div>
 
-        <article class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3">
           <img src="img/index/p911_gt3.jpg" alt="News 2" class="img-fluid mb-2">
           <h4><a href="#">Neu im Sortiment der Porsche 911 GT3 RS</a></h4>
           <p>Der Porsche 911 GT3 RS ist die ultimative Fahrmaschine für die Rennstrecke und die Straße. Mit seinem
@@ -76,10 +82,10 @@
             noch leistungsstärkeren Motor, seinem aerodynamisch optimierten Design
             und seinem präzisen Fahrwerk setzt er neue Maßstäbe in Sachen Performance.</p>
           <a href="https://www.porsche.at/911/911-gt3-rs/911-gt3-rs" class="btn btn-primary btn-sm">Mehr lesen</a>
-        </article>
+        </div>
       </div>
     </div>
-  </section>
+  </main>
 </body>
 
 </html>
