@@ -1,0 +1,13 @@
+.anfrage-content{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.anfrage-content button{
+    background-color: #C0094B;
+    border-color: #C0094B;
+}

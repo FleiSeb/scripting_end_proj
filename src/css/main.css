@@ -7,7 +7,19 @@
 body {
     background-color: #000000;
     color: #FFFFFF;
+    font-size: large;
 }
+
+.navbar{
+    height: 4.5rem!important;
+    font-size: larger;
+}
+
+.bg-highlight{
+    background-color: #1A1A1A;
+    border-radius: 10px;
+}
+
 
 .nav-link {
     color: #C0094B;
@@ -16,13 +28,6 @@ body {
         color: #DDDDDD;
     }
 }
-
-/* News section */
-.news {
-    background-color: #1A1A1A;
-    /* Darker shade of black for section background */
-}
-
 
 .news .btn-primary {
     background-color: #C0094B;
@@ -38,10 +43,8 @@ body {
 
 .news article h4 a {
     color: #C0094B;
-    /* Guards Red - Article title link */
 }
 
-/* Additional elements (can be adjusted further based on your needs) */
 h1,
 h2,
 h3,
@@ -49,16 +52,13 @@ h4,
 h5,
 h6 {
     color: #FFFFFF;
-    /* White - Headings */
 }
 
 a {
     color: #C0094B;
-    /* Guards Red - Link color */
     text-decoration: none;
 }
 
 a:hover {
     color: #FF0000;
-    /* Red - Link hover color */
 }

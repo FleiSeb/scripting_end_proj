@@ -1,0 +1,32 @@
+section {
+    margin-bottom: 1rem;
+}
+
+.info-card {
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.info-card h2 {
+    color: #C0094B;
+}
+
+.info-card img {
+    max-width: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 768px) {
+    .info-card img {
+        max-width: 50%;
+        border-radius: 10px;
+    }
+}
